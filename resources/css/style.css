@@ -74,3 +74,55 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
+
+.prod{
+  background-color: white;
+  margin-top: 0;
+}
+.product_grid{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.pen, .watch, .sunglasses{
+  border: 4px solid black;
+  margin: 3rem 2rem;
+  display: block;
+  justify-content: space-around;
+}
+
+.products{
+  max-width: 30%;
+}
+
+.products img{
+  height: 9rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunglasses img{
+  max-width: 10rem;
+
+}
+
+.productlabel{
+  display: block;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.loc h2{
+  margin-top: 3rem;
+  padding-left: 2rem;
+  width: 35%;
+  display: block;
+  background-color: black;
+  text-align: center;
+  position: relative;
+}

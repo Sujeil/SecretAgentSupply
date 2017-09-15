@@ -38,21 +38,23 @@ html{
   max-width: 960px;
   margin: 0 auto;
 }
+
 .bannertext{
   top: 9rem;
   width: 20rem;
+  padding: 2rem 3rem;
   background-color: black;
   position: relative;
 }
 
 .bannertext h2{
-    padding: 2rem 3rem;
-    font-size: 1rem;
-    font-weight: bold;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
 }
 
 .bannertext h1{
-    padding: 0.25rem 3rem 2rem 3rem;
-    font-size: 2rem;
-    font-weight: bold;
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: bold;
 }

@@ -24,3 +24,35 @@ html{
   padding: 0.66rem 1rem;
   font-size: 1rem;
 }
+
+.banner{
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.bannertext{
+  top: 9rem;
+  width: 20rem;
+  background-color: black;
+  position: relative;
+}
+
+.bannertext h2{
+    padding: 2rem 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bannertext h1{
+    padding: 0.25rem 3rem 2rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}

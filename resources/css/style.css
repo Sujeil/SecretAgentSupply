@@ -121,6 +121,12 @@ a{
   display: flex;
 }
 
+p{
+  color: black;
+  padding-top: 1%;
+  margin-bottom: 4rem;
+}
+
 .loc {
   max-width: 35%;
   min-width: 28%;

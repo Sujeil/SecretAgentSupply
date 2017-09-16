@@ -104,9 +104,9 @@ a{
   align-items: center;
 }
 
-.sunglasses img{
-  max-width: 10rem;
-
+.sunglasses .products img{
+  height: auto;
+  margin: 3rem auto 2.30rem auto;
 }
 
 .productlabel{

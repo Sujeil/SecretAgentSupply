@@ -228,6 +228,10 @@ footer h2{
 }
 
 @media only screen and (max-width: 470px){
+  .container{
+    max-width: 470px;
+  }
+
   .logo{
     margin: 1.5% 1%;
   }
@@ -266,5 +270,19 @@ footer h2{
   .pen .products img{
     display: block;
     margin: auto;
+  }
+
+  .info{
+    display: block;
+    margin-bottom: 4rem;
+  }
+
+  .info_display {
+    width: 90%;
+    margin: auto;
+  }
+
+  .info_display p{
+    margin-bottom: 0.5rem;
   }
 }

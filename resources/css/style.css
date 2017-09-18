@@ -60,11 +60,11 @@ html{
   line-height: 1.3em;
 }
 
-.dropdown{
+.navlinks li{
   display: none;
 }
 
-nav{
+.navlinks{
   background-color: firebrick;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -198,16 +198,20 @@ footer h2{
       font-size: 1.1rem;
     }
 
-    nav{
-      display: none;
+    .navlinks{
+      text-align: center;
     }
-    
-    .dropdown{
-      background-color: firebrick;
-      padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
-      display: inline-flex;
-      width: 100%;
+
+    .navlinks li{
+      display: flex;
       justify-content: center;
     }
-}
+
+    .navlinks a{
+      display: none;
+    }
+
+/*Work on getting hover to show nav*/
+    .navlinks li:hover a{
+    
+    }

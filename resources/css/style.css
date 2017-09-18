@@ -225,3 +225,38 @@ footer h2{
     footer h2{
       padding: 5rem 0 5rem 0;
     }
+}
+
+@media only screen and (max-width: 470px){
+  .logo{
+    margin: 1.5% 1%;
+  }
+
+  .banner{
+    height: 15rem;
+  }
+  .bannertext{
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .bannertext h2{
+    font-size: .77rem;
+    font-weight: bold;
+  }
+
+  .bannertext h1{
+    padding-top: 0.50rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
+
+
+  .watch{
+    display: none;
+  }
+}

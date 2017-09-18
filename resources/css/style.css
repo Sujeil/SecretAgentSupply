@@ -10,6 +10,7 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
   background-color: black;
   margin-left: 9rem;
 }
@@ -288,5 +289,16 @@ footer h2{
 
   footer h2{
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 345px){
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo img{
+    margin: auto;
   }
 }

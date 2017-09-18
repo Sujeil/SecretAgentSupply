@@ -235,6 +235,7 @@ footer h2{
   .banner{
     height: 15rem;
   }
+
   .bannertext{
     top: 10rem;
     left: 0;
@@ -253,10 +254,17 @@ footer h2{
     font-weight: bold;
   }
 
-
-
-
   .watch{
     display: none;
+  }
+
+  .pen{
+    max-width: 90%;
+    min-width: 90%;
+  }
+
+  .pen .products img{
+    display: block;
+    margin: auto;
   }
 }

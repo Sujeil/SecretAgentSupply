@@ -60,6 +60,10 @@ html{
   line-height: 1.3em;
 }
 
+.dropdown{
+  display: none;
+}
+
 nav{
   background-color: firebrick;
   padding-top: 0.75rem;
@@ -192,5 +196,18 @@ footer h2{
     .bannertext h1{
       padding-top: 0.50rem;
       font-size: 1.1rem;
+    }
+
+    nav{
+      display: none;
+    }
+    
+    .dropdown{
+      background-color: firebrick;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      display: inline-flex;
+      width: 100%;
+      justify-content: center;
     }
 }

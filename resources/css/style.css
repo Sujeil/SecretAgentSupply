@@ -285,4 +285,8 @@ footer h2{
   .info_display p{
     margin-bottom: 0.5rem;
   }
+
+  footer h2{
+    text-align: center;
+  }
 }

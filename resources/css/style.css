@@ -154,6 +154,7 @@ footer{
 
 footer h2{
   padding: 5rem;
+  padding-left: 0;
 }
 
 @media only screen and (max-width: 1142px) and (min-width:1025px){

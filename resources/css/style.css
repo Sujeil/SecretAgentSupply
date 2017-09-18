@@ -57,6 +57,7 @@ html{
   padding-top: 0.25rem;
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1.3em;
 }
 
 nav{
@@ -169,8 +170,12 @@ footer h2{
       margin: 3% 8%;
     }
 
+    .banner{
+      height: 15rem;
+    }
+
     .bannertext{
-      top: 7rem;
+      top: 4.75rem;
       left: 3rem;
       width: 15rem;
       padding: 1.5rem 1.5rem;
@@ -186,7 +191,6 @@ footer h2{
 
     .bannertext h1{
       padding-top: 0.50rem;
-      font-size: 1.2rem;
-      font-weight: normal;
+      font-size: 1.1rem;
     }
 }
